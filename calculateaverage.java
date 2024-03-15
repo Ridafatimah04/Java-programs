@@ -1,7 +1,6 @@
-package week3;
 import java.util.Scanner;
 public class calculateaverage {
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         float average =0.0f;
         Scanner sc = new Scanner(System.in);
         
@@ -20,5 +19,5 @@ public class calculateaverage {
         average = (float) (ciel + cie2 + cie3)/3;
         System.out.println("The average Internal Score is "+average);
         sc.close();
-      }
+    }
 }
